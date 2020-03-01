@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Home-Page-Star</title>
+	<link rel="icon" href="assets/img/content/icon.png">
+	<!-- ========== CSS INCLUDES ========== -->
+	<link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+	<div class="page-loader">
+		<div class="vertical-align align-center">
+			<img src="assets/loader/loader.gif" alt="" class="loader-img">
+		</div>
+	</div>
+
+	<!-- =============== START BREADCRUMB ================ -->
+	<section class="no-mb">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="breadcrumb-fullscreen-parent phone-menu-bg">
+					<div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" id="headerImage"
+						style="background-image: url('assets/img/header/header.jpg');"
+						data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+						<div id="home" style="position: absolute;left: 0;top: 0;">
+							<div class="intro-header">
+								<div class="js-height-full star" style="height: 955px;">
+									<div class="star-pattern-1 js-height-full" style="height: 994px;"></div>
+									<div class="col-sm-12">
+										<div class="starTitle">
+											<div class="countdownTitle">
+												<h4 id="countDownTitle">Indie-folk from <br> Providence, RI</h4>
+												<div class="countDown">
+													<div class="row countDownDate">
+														<div class="col-xs-12 countDownDate">Great Gale </div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<canvas class="cover" width="1920" height="955"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =============== END BREADCRUMB ================ -->
+
+	<!-- =============== START PLAYER ================ -->
+	<div class="main-music-player">
+		<a class="hide-player-button">
+			<i class="fa fa-plus"></i>
+			<i class="fa fa-minus"></i>
+		</a>
+		<div id="mesh-main-player" class="jp-jplayer" data-audio-src="assets/audio/flute.mp3"
+			data-title="See right through ft. Fiora" data-artist="Tensnake"></div>
+
+		<div id="mesh-main-player-content" class="mesh-main-player" role="application" aria-label="media player">
+			<div class="container">
+				<div class="row">
+					<div class="left-player-side">
+						<div class="mesh-prev">
+							<i class="fa fa-step-backward"></i>
+						</div>
+						<div class="mesh-play">
+							<i class="fa fa-play"></i>
+						</div>
+						<div class="mesh-pause">
+							<i class="fa fa-pause"></i>
+						</div>
+						<div class="mesh-next">
+							<i class="fa fa-step-forward"></i>
+						</div>
+						<button id="playlist-toggle" class="jplayerButton">
+							<span class="span-1"></span>
+							<span class="span-2"></span>
+							<span class="span-3"></span>
+						</button>
+					</div>
+					<div class="center-side">
+						<div class="mesh-current-time">
+						</div>
+						<div class="mesh-seek-bar">
+							<div class="mesh-play-bar">
+							</div>
+						</div>
+						<div class="mesh-duration">
+						</div>
+					</div>
+					<div class="right-player-side">
+						<div class="mesh-thumbnail">
+							<img src="assets/img/player/thumbnail.jpg" alt="">
+						</div>
+						<div class="mesh-title">
+						</div>
+						<div class="mesh-artist">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =============== END PLAYER ================ -->
+
+	<!-- =============== START PLAYLIST ================ -->
+	<div class="playlist-wrapper" id="playlist-wrapper">
+		<div class="jp-playlist container">
+			<div class="about-list clearfix">
+				<span class="about-name">NAME</span>
+				<span class="about-length">LENGTH</span>
+				<span class="about-available">AVAILABLE ON</span>
+			</div>
+			<div class="trak-item" data-audio="assets/audio/dunes.mp3" data-artist="Great Gale"
+				data-thumbnail="assets/img/player/thumbnail.png" data-id="trak-200">
+				<audio preload="metadata" src="assets/audio/dunes.mp3" title="Dunes"></audio>
+				<div class="additional-button">
+					<div class="center-y-table">
+						<a href="#">
+							<i class="fa fa-apple"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-soundcloud"></i>
+						</a>
+					</div>
+				</div>
+				<div class="play-pause-button">
+					<div class="center-y-table">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="name-artist">
+					<div class="center-y-table">
+						<h2>
+							Great Gale - Dunes
+						</h2>
+					</div>
+				</div>
+				<time class="trak-duration">
+					00:00
+				</time>
+			</div>
+			<div class="trak-item" data-audio="assets/audio/coffeePots.mp3" data-artist="Great Gale"
+				data-thumbnail="assets/img/player/thumbnail.png" data-id="trak-201">
+				<audio preload="metadata" src="assets/audio/coffeePots.mp3"
+					title="Coffee Pots & Corner Marts Part 1"></audio>
+				<div class="additional-button">
+					<div class="center-y-table">
+						<a href="#">
+							<i class="fa fa-apple"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-soundcloud"></i>
+						</a>
+					</div>
+				</div>
+				<div class="play-pause-button">
+					<div class="center-y-table">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="name-artist">
+					<div class="center-y-table">
+						<h2>
+							Great Gale - Coffee Pots & Corner Marts Part 1
+						</h2>
+					</div>
+				</div>
+				<time class="trak-duration">
+					00:00
+				</time>
+			</div>
+			<div class="trak-item" data-audio="assets/audio/coffeePots2.mp3" data-artist="Great Gale"
+				data-thumbnail="assets/img/player/thumbnail.png" data-id="trak-201">
+				<audio preload="metadata" src="assets/audio/coffeePots2.mp3"
+					title="Coffee Pots & Corner Marts Part 2"></audio>
+				<div class="additional-button">
+					<div class="center-y-table">
+						<a href="#">
+							<i class="fa fa-apple"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-soundcloud"></i>
+						</a>
+					</div>
+				</div>
+				<div class="play-pause-button">
+					<div class="center-y-table">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="name-artist">
+					<div class="center-y-table">
+						<h2>
+							Great Gale - Cofee Pots & Corner Marts Part 2
+						</h2>
+					</div>
+				</div>
+				<time class="trak-duration">
+					00:00
+				</time>
+			</div>
+			<div class="trak-item" data-audio="assets/audio/strikerWheel.mp3" data-artist="Great Gale"
+				data-thumbnail="assets/img/player/thumbnail.png" data-id="trak-201">
+				<audio preload="metadata" src="assets/audio/strikerWheel.mp3" title="Striker Wheel"></audio>
+				<div class="additional-button">
+					<div class="center-y-table">
+						<a href="#">
+							<i class="fa fa-apple"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-soundcloud"></i>
+						</a>
+					</div>
+				</div>
+				<div class="play-pause-button">
+					<div class="center-y-table">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="name-artist">
+					<div class="center-y-table">
+						<h2>
+							Great Gale - Striker Wheel
+						</h2>
+					</div>
+				</div>
+				<time class="trak-duration">
+					00:00
+				</time>
+			</div>
+		</div>
+	</div>
+	<!-- =============== END PLAYLIST ================ -->
+
+	<!-- =============== START TOP HEADER ================ -->
+	<div class="topHeader">
+		<div class="header">
+			<div class="rightTopHeader">
+				<!-- Open Menu Button -->
+				<a class="open-menu">
+					<!-- Buttons Bars -->
+					<span class="span-1"></span>
+					<span class="span-2"></span>
+					<span class="span-3"></span>
+				</a>
+			</div><!-- end rightTopHeader -->
+		</div><!-- end header -->
+		<!-- Menu Fixed Container -->
+		<div class="menu-fixed-container">
+			<!-- Menu Fixed Centred Container -->
+			<nav>
+				<!-- Menu Fixed Close Button -->
+				<div class="x-filter">
+					<span></span>
+					<span></span>
+				</div>
+				<!-- Menu Fixed Primary List -->
+				<ul>
+					<!-- Menu Fixed Item -->
+					<li>
+						<a href="index.html">
+							home
+						</a>
+					</li>
+					<!-- Menu Fixed Item -->
+					<li>
+						<a href="events.html">
+							events
+						</a>
+					</li>
+					<!-- Menu Fixed Item -->
+					<li>
+						<a href="blogGrid.html">
+							lyrics
+						</a>
+					</li>
+					<!-- Menu Fixed Item -->
+					<li>
+						<a href="contact.html">
+							contact
+						</a>
+					</li>
+				</ul>
+				<!-- Menu Fixed Close Button -->
+				<div class="x-filter">
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+		</div><!-- end menu-fixed-container -->
+		<!-- =============== STAR LOGO ================ -->
+		<div class="logo-container-top">
+			<a class="logo" href="index.html">
+				<h3>Great Gale</h3>
+			</a>
+		</div><!-- end logo-container-top -->
+		<!-- =============== END LOGO ================ -->
+	</div><!-- end topHeader -->
+	<!-- =============== END TOP HEADER ================ -->
+
+	<!-- =============== START EVENTS SECTION-1 ================ -->
+	<section style="background: 
+		linear-gradient(
+			rgba(255, 250, 250, .8), 
+				rgba(255, 235, 250, 0.8)),
+		/* bottom, image */
+		no-repeat center
+		url(assets/img/events/showsTable.png);" class="background-properties hide-section padding">
+		<div class="tableEvents">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="sectionTitle paddingBottom">
+							<span class="heading-t3"></span>
+							<h2><a href="events.html">Events</a></h2>
+							<span class="heading-b3"></span>
+						</div>
+						<table>
+							<tr class="tableEventsTitle">
+								<th class="date">Date</th>
+								<th class="venue">Venue</th>
+								<th class="location">Details</th>
+								<th class="location">City</th>
+								<th></th>
+							</tr>
+							<tr>
+								<td class="aqura-date"><a href="https://www.facebook.com/events/501977670510317/?event_time_id=501977673843650"><i class="fa fa-plus"></i></a><a
+										href="https://www.facebook.com/events/501977670510317/?event_time_id=501977673843650">May 12</a></td>
+								<td class="aqura-location"><a href="http://goodwillenginecompany.com/">Good Will Engine Company</a></td>
+								<td class="aqura-city"><a href="https://pvdfest.com/">PVDFest Battle of the Bands </a></td>
+								<td class="aqura-city"><a href="https://www.goprovidence.com/">Providence, RI</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =============== END EVENTS SECTION-1 ================ -->
+
+	<!-- =============== START VIDEO SECTION ================ -->
+	<section style="background: 
+				/* top, transparent red, faked with gradient */ 
+				/* linear-gradient(
+					rgba(118, 189, 216, .5), 
+					rgba(118, 189, 216, .5)
+				), */
+				/* bottom, image */
+				no-repeat cover center
+				url(assets/img/events/simple.jpg);" class="videoHome hide-section padding">
+		<div class="container">
+			<div class="row">
+				<div class="sectionTitle">
+					<span class="heading-t3"></span>
+					<h2><a href="video.html">Live Clips</a></h2>
+					<span class="heading-b3"></span>
+					<p>Subscribe to our <a href="https://www.youtube.com/channel/UCQIWlXP946I7wrp4CSxYAMQ">Youtube</a> channel to
+						see the latest videos.</p>
+				</div><!-- end sectionTtile -->
+				<div class="col-sm-4 youTube">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/z0l4Oxs0w7w"
+						allowfullscreen></iframe>
+				</div><!-- end col-sm-4 -->
+				<div class="col-sm-4 youTube">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/KQ57bgF2kew"
+						allowfullscreen></iframe>
+				</div><!-- end col-sm-4 -->
+				<div class="col-sm-4 youTube">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/rxfJBa6Xdls"
+						allowfullscreen></iframe>
+				</div><!-- end col-sm-4 -->
+			</div>
+		</div>
+	</section>
+	<!-- =============== END VIDEO SECTION ================ -->
+
+	<!-- =============== START GALLERY SECTION ================ -->
+	<section style="padding-bottom:0; padding-top:0;" class="hide-section">
+		<div class="gallerySection">
+			<div class="container-fluid" style="padding:0;">
+				<div class="col-sm-12">
+					<!-- Content Container -->
+					<div class="content-container clearfix">
+						<!-- Single Album Container -->
+						<div class="single-photo-album-container">
+							<div class="row">
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="img-responsive" src="assets/img/gallery/wideGallery.png"
+													alt="">
+												<div class="overlay">
+													<a class="info lightbox"
+														href="assets/img/gallery/wideGallery.png"></a>
+												</div>
+											</div>
+										</figcaption>
+										<!-- Single Album View Button -->
+
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+												<img class="img-responsive" src="assets/img/gallery/mike.png" alt="">
+												<div class="overlay">
+													<a class="info lightbox" href="assets/img/gallery/mike.png"></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+												<img class="img-responsive" src="assets/img/gallery/nic.png" alt="">
+												<div class="overlay">
+													<a class="info lightbox" href="assets/img/gallery/nic.png"></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+												<img class="img-responsive" src="assets/img/gallery/jeff.png" alt="">
+												<div class="overlay">
+													<a class="info lightbox" href="assets/img/gallery/jeff.png"></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+												<img class="img-responsive" src="assets/img/gallery/jeana.png" alt="">
+												<div class="overlay">
+													<a class="info lightbox" href="assets/img/gallery/jeana.png"></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+												<img class="img-responsive" src="assets/img/gallery/greatGaleWide.png"
+													alt="">
+												<div class="overlay">
+													<a class="info lightbox"
+														href="assets/img/gallery/greatGale.png"></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</div>
+	</section>
+	<!-- =============== END GALLERY SECTION ================ -->
+
+	<!-- =============== START FOOTER ================ -->
+	<section style="background-color:#eeeeee;" class="hide-section">
+		<div class="footer footerPadding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="copyFooter">
+							<a href="#">&copy; Great Gale 2020</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<nav class="social-icons">
+							<ul class="clearfix">
+								<li><a href="https://twitter.com/GreatGaleMusic" target=”_blank”
+										class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
+								<li><a href="https://www.facebook.com/GreatGale/" target=”_blank”
+										class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a>
+								</li>
+								<li><a href="https://www.instagram.com/greatgalemusic/" target=”_blank”
+										class="icon-button shopIcon"><i class="fa fa-instagram"></i><span></span></a>
+								</li>
+								<li><a href="https://www.youtube.com/channel/UCQIWlXP946I7wrp4CSxYAMQ" target=”_blank”
+										class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a>
+								</li>
+								<li><a href="https://music.apple.com/us/artist/great-gale/1251765285" target=”_blank”
+										class="icon-button shopIcon"><i class="fa fa-apple"></i><span></span></a></li>
+								<li><a href="https://open.spotify.com/artist/6gUl3q6j9WzrrvDkJO9CfA" target=”_blank”
+										class="icon-button shopIcon"><i class="fa fa-spotify"></i><span></span></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-sm-4">
+						<div class="goTop back-to-top" id="back-to-top">
+							<i class="fa fa-angle-up"></i>
+							<a href="#">Go Top</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =============== END FOOTER ================ -->
+
+	<!-- ================================================== -->
+	<!-- =============== START JQUERY SCRIPTS ================ -->
+	<!-- ================================================== -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/jplayer/jplayer/jquery.jplayer.js"></script>
+	<script src="assets/js/jPlayer.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!--[if lte IE 9 ]>
+		<script src="assets/js/placeholder.js"></script>
+		<script>
+			jQuery(function() {
+				jQuery('input, textarea').placeholder();
+			});
+		</script>
+	<![endif]-->
+	<!-- ================================================== -->
+	<!-- =============== END JQUERY SCRIPTS ================ -->
+	<!-- ================================================== -->
+</body>
+
+</html>
