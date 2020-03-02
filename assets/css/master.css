@@ -5149,6 +5149,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   #headerImage {
     background-image: url(../img/header/mobileHeader.jpg) !important;
   }
+  #contactHeaderImage {
+    background-image: url(../img/header/contactHeaderMobile.jpg) !important;
+  }
 }
 @media (max-width: 320px) {
   .breadcrumb h1 {
@@ -10846,6 +10849,105 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 /***********************************************************************************************/
 /* END HOME GALLERY SECTION */
 /***********************************************************************************************/
+
+/***********************************************************************************************/
+/* START CONTACT */
+/***********************************************************************************************/
+.contactSingle .singleBlogForm {
+  padding-top: 0;
+}
+.contactSingle .singleBlogForm h2 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  padding-bottom: 6rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #525252;
+}
+.contactSingle .singleBlogForm form {
+  padding-top: 0;
+}
+.contactSingle .singleBlogForm form input {
+  display: inline-block;
+  background-color: transparent;
+}
+.contactSingle .singleBlogForm form input:first-child {
+  margin-right: 11.5rem;
+}
+.contactSingle .singleBlogForm form input:nth-child(3) {
+  margin-right: 11.5rem;
+}
+.contactSingle .singleBlogForm form textarea {
+  background-color: transparent;
+}
+.contactSingle .singleBlogForm form .form-submit input {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+.contactSingle .singleBlogForm form .form-submit input:hover {
+  background-color: #bb9b69;
+}
+.contactTop h2 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  padding-bottom: 6rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #525252;
+}
+.contactTop h4 {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-bottom: 3rem;
+  color: #757575;
+}
+.contactTop p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #555454;
+  padding-bottom: 5rem;
+  line-height: 2.4rem;
+}
+.contactTop .contactInfo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contactTop .contactInfo ul li {
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  color: #525252;
+  font-size: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 2.6rem;
+}
+.contactTop .contactInfo ul li a {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: #757575;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  padding-left: 8rem;
+}
+/***********************************************************************************************/
+/* END CONTACT */
+
 /***********************************************************************************************/
 ***********************************************************************************************/
 /* START VIDEO */
