@@ -29,6 +29,16 @@ jQuery(function(){
 
     "use strict";
 
+    if (jQuery(window).width() >= 400){
+      $(window).scroll(function() {
+        if ($(document).scrollTop() > 200) {
+          jQuery('.topHeader').css("background", "rgba(0, 0, 0, 0.7)")
+        } else {
+          jQuery('.topHeader').css("background", "rgba(0, 0, 0, 0)")
+        }
+      });
+    }
+
     var breadcrumbH = jQuery('.breadcrumb').outerHeight();
 
     if (jQuery(window).width() >= 1200){  
@@ -45,7 +55,7 @@ jQuery(function(){
 
     });
 
-    jQuery('.breadcrumb-fullscreen-parent').after('<div class="before-affix-breadcrumb"></div>');
+    // jQuery('.breadcrumb-fullscreen-parent').after('<div class="before-affix-breadcrumb"></div>');
 
     var wH = jQuery(window).height();
 
