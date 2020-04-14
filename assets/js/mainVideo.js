@@ -83,11 +83,11 @@ jQuery(function(){
 
       jQuery('header.header').addClass('phone-menu-bg');
 
-      jQuery('.phone-menu-bg').affix({
-          offset: {
-            top: 50
-          }
-      });
+      // jQuery('.phone-menu-bg').affix({
+      //     offset: {
+      //       top: 50
+      //     }
+      // });
 
     };
 
